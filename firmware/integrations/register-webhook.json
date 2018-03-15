@@ -1,6 +1,6 @@
 {
     "event": "register",
-    "url": "https://<apidns>.azurewebsites.net/api/devices",
+    "url": "https://lacecsefunction01.azurewebsites.net/api/devices",
     "requestType": "POST",
     "noDefaults": true,
     "rejectUnauthorized": true,
@@ -11,6 +11,6 @@
         "data": "{{PARTICLE_EVENT_VALUE}}"
     },
     "query": {
-        "code": "<masterhostkey>"
+        "code": "3PvmmWbxlmdu/5cAvHrfdSmVrGwMrC7TeTre0jI1adx378Ah2zAlFQ=="
     }
 }
